@@ -1,3 +1,19 @@
 <Solution>
-  <Project Path="CleanArchitectureTemplate/CleanArchitectureTemplate.csproj" />
+  <Folder Name="/src/" />
+  <Folder Name="/src/Core/">
+    <Project Path="src/Core/CleanArchitectureTemplate.Application/CleanArchitectureTemplate.Application.csproj" />
+    <Project Path="src/Core/CleanArchitectureTemplate.Domain/CleanArchitectureTemplate.Domain.csproj" />
+  </Folder>
+  <Folder Name="/src/Infrastructure/">
+    <Project Path="src/Infrastructure/CleanArchitectureTemplate.Infrastructure/CleanArchitectureTemplate.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Presentation/">
+    <Project Path="src/Presentation/CleanArchitectureTemplate.Contracts/CleanArchitectureTemplate.Contracts.csproj" />
+  </Folder>
+  <Folder Name="/src/Presentation/API/">
+    <Project Path="src/Presentation/API/CleanArchitectureTemplate.csproj" />
+  </Folder>
+  <Folder Name="/test/">
+    <Project Path="test/ArchitectureTests/ArchitectureTests.csproj" />
+  </Folder>
 </Solution>
