@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project>
 
+    <!-- ========================= -->
+    <!-- Global project settings   -->
+    <!-- ========================= -->
     <PropertyGroup>
         <!-- Target framework for all projects -->
         <TargetFramework>net10.0</TargetFramework>
@@ -19,8 +22,24 @@
         <EnableNETAnalyzers>true</EnableNETAnalyzers>
         <AnalysisLevel>latest</AnalysisLevel>
 
+        <!-- StyleCop behavior -->
+        <StyleCopTreatErrorsAsWarnings>true</StyleCopTreatErrorsAsWarnings>
+
         <!-- Build quality -->
         <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
     </PropertyGroup>
 
+    <!-- ========================= -->
+    <!-- Analyzer packages         -->
+    <!-- ========================= -->
+    <ItemGroup>
+        <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.556" PrivateAssets="all" />
+    </ItemGroup>
+
+    <!-- ========================= -->
+    <!-- Analyzer configuration    -->
+    <!-- ========================= -->
+    <ItemGroup>
+        <AdditionalFiles Include="$(MSBuildThisFileDirectory)stylecop.json" />
+    </ItemGroup>
 </Project>
