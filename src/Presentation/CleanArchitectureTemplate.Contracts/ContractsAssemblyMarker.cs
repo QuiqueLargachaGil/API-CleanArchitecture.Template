@@ -1,4 +1,11 @@
-﻿namespace CleanArchitectureTemplate.Contracts;
+// --------------------------------------------------------------------------------------------------
+// <copyright file="ContractsAssemblyMarker.cs" company="YourCompany">
+// Copyright (c) Enrique Largacha Gil.
+// Licensed under the MIT license. See LICENSE file in the project root for full license information.
+// </copyright>
+// --------------------------------------------------------------------------------------------------
+
+namespace CleanArchitectureTemplate.Contracts;
 
 /***************************************************************************************
  * NOTE: Assembly marker class
@@ -26,7 +33,16 @@
  * This class contains no logic by design.
  ***************************************************************************************/
 
+/// <summary>
+/// Assembly marker class used to provide a stable reference to the Contracts assembly.
+/// This class contains no behavior or logic and exists solely to allow other
+/// projects (such as architecture tests) to reliably obtain the
+/// <see cref="System.Reflection.Assembly"/> instance of the Contracts layer.
+/// </summary>
+/// <remarks>
+/// Once real Contracts types are introduced, this class should be removed and
+/// replaced by referencing any actual type from the Contracts assembly instead.
+/// </remarks>
 public sealed class ContractsAssemblyMarker
 {
-
 }

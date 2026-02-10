@@ -25,6 +25,9 @@
         <!-- StyleCop behavior -->
         <StyleCopTreatErrorsAsWarnings>true</StyleCopTreatErrorsAsWarnings>
 
+		<!-- Documentation -->
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+
         <!-- Build quality -->
         <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
     </PropertyGroup>
