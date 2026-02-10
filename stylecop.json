@@ -1,20 +1,27 @@
 {
   "settings": {
-    "documentationRules": {
-      "companyName": "YourCompany",
-      "documentInterfaces": false,
-      "documentInternalElements": false,
-      "documentPrivateElements": false
-    },
-    "layoutRules": {
-      "usingDirectivesPlacement": "outsideNamespace"
-    },
-    "orderingRules": {
-      "usingDirectivesPlacement": "outsideNamespace",
-      "systemUsingDirectivesFirst": true
-    },
-    "namingRules": {
-      "allowCommonHungarianPrefixes": false
-    }
-  }
+		"documentationRules": {
+			"companyName": "YourCompany",
+			"documentInterfaces": false,
+			"documentInternalElements": false,
+			"documentPrivateElements": false,
+			"copyrightText": "Copyright (c) {author}.\nLicensed under the {licenseName} license. See {licenseFile} file in the project root for full license information.",
+			"variables": {
+				"author": "Enrique Largacha Gil",
+				"licenseName": "MIT",
+				"licenseFile": "LICENSE"
+			},
+			"headerDecoration": "--------------------------------------------------------------------------------------------------"
+		},
+		"layoutRules": {
+			"usingDirectivesPlacement": "outsideNamespace"
+		},
+		"orderingRules": {
+			"usingDirectivesPlacement": "outsideNamespace",
+			"systemUsingDirectivesFirst": true
+		},
+		"namingRules": {
+			"allowCommonHungarianPrefixes": false
+		}
+	}
 }
