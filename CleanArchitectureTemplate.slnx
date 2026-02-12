@@ -19,6 +19,12 @@
     <Project Path="src/Presentation/API/CleanArchitectureTemplate.csproj" />
   </Folder>
   <Folder Name="/test/">
+    <Project Path="test/Application.SubcutaneousTests/Application.SubcutaneousTests.csproj" Id="3e9d82d8-4225-472c-9652-4aac6e0fd0be" />
     <Project Path="test/ArchitectureTests/ArchitectureTests.csproj" />
+    <Project Path="test/IntegrationTests/IntegrationTests.csproj" Id="3e946d7e-dc05-41a3-ba18-1af71048ae35" />
+  </Folder>
+  <Folder Name="/test/UnitTests/">
+    <Project Path="test/UnitTests/Application.UnitTests/Application.UnitTests.csproj" Id="f3349987-af44-4d39-8c10-bdb010c97a0c" />
+    <Project Path="test/UnitTests/Domain.UnitTest/Domain.UnitTest.csproj" Id="c5b94b33-4693-4a64-8de7-91f68443168d" />
   </Folder>
 </Solution>
