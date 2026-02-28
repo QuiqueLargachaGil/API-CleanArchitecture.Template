@@ -1,4 +1,4 @@
-﻿// --------------------------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------------------------
 // <copyright file="BaseTests.cs" company="YourCompany">
 // Copyright (c) Enrique Largacha Gil.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
@@ -6,10 +6,10 @@
 // --------------------------------------------------------------------------------------------------
 
 using System.Reflection;
-using CleanArchitectureTemplate.Application;
-using CleanArchitectureTemplate.Contracts;
-using CleanArchitectureTemplate.Domain.Common.BaseModels;
-using InfrastructureDependencyInjection = CleanArchitectureTemplate.Infrastructure.DependencyInjection;
+using API.CleanArchitectureTemplate.Application;
+using API.CleanArchitectureTemplate.Contracts;
+using API.CleanArchitectureTemplate.Domain.Common.BaseModels;
+using InfrastructureDependencyInjection = API.CleanArchitectureTemplate.Infrastructure.DependencyInjection;
 
 namespace ArchitectureTests.Base;
 

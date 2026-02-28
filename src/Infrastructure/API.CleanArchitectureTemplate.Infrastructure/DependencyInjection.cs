@@ -5,7 +5,7 @@
 // </copyright>
 // --------------------------------------------------------------------------------------------------
 
-namespace CleanArchitectureTemplate.Infrastructure;
+namespace API.CleanArchitectureTemplate.Infrastructure;
 
 /// <summary>
 /// Provides extension methods to register Infrastructure layer services

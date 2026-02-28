@@ -16,11 +16,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Core\CleanArchitectureTemplate.Application\CleanArchitectureTemplate.Application.csproj" />
-    <ProjectReference Include="..\..\src\Core\CleanArchitectureTemplate.Domain\CleanArchitectureTemplate.Domain.csproj" />
-    <ProjectReference Include="..\..\src\Infrastructure\CleanArchitectureTemplate.Infrastructure\CleanArchitectureTemplate.Infrastructure.csproj" />
-    <ProjectReference Include="..\..\src\Presentation\API\CleanArchitectureTemplate.csproj" />
-    <ProjectReference Include="..\..\src\Presentation\CleanArchitectureTemplate.Contracts\CleanArchitectureTemplate.Contracts.csproj" />
+    <ProjectReference Include="..\..\src\Core\API.CleanArchitectureTemplate.Application\API.CleanArchitectureTemplate.Application.csproj" />
+    <ProjectReference Include="..\..\src\Core\API.CleanArchitectureTemplate.Domain\API.CleanArchitectureTemplate.Domain.csproj" />
+    <ProjectReference Include="..\..\src\Infrastructure\API.CleanArchitectureTemplate.Infrastructure\API.CleanArchitectureTemplate.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\src\Presentation\API.CleanArchitectureTemplate.Contracts\API.CleanArchitectureTemplate.Contracts.csproj" />
+    <ProjectReference Include="..\..\src\Presentation\API\API.CleanArchitectureTemplate.csproj" />
   </ItemGroup>
 
   <ItemGroup>

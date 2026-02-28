@@ -5,7 +5,7 @@
 // </copyright>
 // --------------------------------------------------------------------------------------------------
 
-namespace CleanArchitectureTemplate.Contracts;
+namespace API.CleanArchitectureTemplate.Contracts;
 
 /***************************************************************************************
  * NOTE: Assembly marker class

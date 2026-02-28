@@ -5,7 +5,7 @@
 // </copyright>
 // --------------------------------------------------------------------------------------------------
 
-namespace CleanArchitectureTemplate.Domain.Common.BaseModels;
+namespace API.CleanArchitectureTemplate.Domain.Common.BaseModels;
 
 /// <summary>
 /// Represents the base class for entities in the domain model.

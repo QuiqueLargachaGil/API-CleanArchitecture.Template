@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\API.CleanArchitectureTemplate.Application\API.CleanArchitectureTemplate.Application.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\API.CleanArchitectureTemplate.Infrastructure\API.CleanArchitectureTemplate.Infrastructure.csproj" />
+    <ProjectReference Include="..\API.CleanArchitectureTemplate.Contracts\API.CleanArchitectureTemplate.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

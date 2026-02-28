@@ -5,7 +5,7 @@
 // </copyright>
 // --------------------------------------------------------------------------------------------------
 
-namespace CleanArchitectureTemplate.Application;
+namespace API.CleanArchitectureTemplate.Application;
 
 /// <summary>
 /// Provides extension methods to register Application layer services

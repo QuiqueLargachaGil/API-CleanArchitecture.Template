@@ -1,0 +1,5 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\API.CleanArchitectureTemplate.Domain\API.CleanArchitectureTemplate.Domain.csproj" />
+  </ItemGroup>
+</Project>
