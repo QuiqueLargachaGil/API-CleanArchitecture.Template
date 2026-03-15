@@ -1,0 +1,30 @@
+name: PR Validation
+on:
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  validate:
+    name: PR Validation
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup .NET SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 10.0
+
+      - name: Restore NuGet packages
+        run: dotnet restore
+
+      - name: Verify code formatting
+        run: dotnet format -v detailed --verify-no-changes
+
+      - name: Build solution
+        run: dotnet build --configuration Release --no-restore
+
+      - name: Run test
+        run: dotnet test --configuration Release --no-build

@@ -1,0 +1,33 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path="Directory.Build.props" />
+    <File Path="stylecop.json" />
+  </Folder>
+  <Folder Name="/src/" />
+  <Folder Name="/src/Core/">
+    <Project Path="src/Core/API.CleanArchitectureTemplate.Application/API.CleanArchitectureTemplate.Application.csproj" />
+    <Project Path="src/Core/API.CleanArchitectureTemplate.Domain/API.CleanArchitectureTemplate.Domain.csproj" />
+  </Folder>
+  <Folder Name="/src/Infrastructure/">
+    <Project Path="src/Infrastructure/API.CleanArchitectureTemplate.Infrastructure/API.CleanArchitectureTemplate.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Presentation/">
+    <Project Path="src/Presentation/API.CleanArchitectureTemplate.Contracts/API.CleanArchitectureTemplate.Contracts.csproj" />
+    <Project Path="src/Presentation/API/API.CleanArchitectureTemplate.csproj" />
+  </Folder>
+  <Folder Name="/tests/" />
+  <Folder Name="/tests/ArchitectureTests/">
+    <Project Path="tests/ArchitectureTests/ArchitectureTests.csproj" />
+  </Folder>
+  <Folder Name="/tests/IntegrationTests/">
+    <Project Path="tests/IntegrationTests/IntegrationTests.csproj" Id="3e946d7e-dc05-41a3-ba18-1af71048ae35" />
+  </Folder>
+  <Folder Name="/tests/SubcutaneousTests/">
+    <Project Path="tests/Application.SubcutaneousTests/Application.SubcutaneousTests.csproj" Id="3e9d82d8-4225-472c-9652-4aac6e0fd0be" />
+  </Folder>
+  <Folder Name="/tests/UnitTests/">
+    <Project Path="tests/UnitTests/Application.UnitTests/Application.UnitTests.csproj" Id="f3349987-af44-4d39-8c10-bdb010c97a0c" />
+    <Project Path="tests/UnitTests/Domain.UnitTest/Domain.UnitTest.csproj" Id="c5b94b33-4693-4a64-8de7-91f68443168d" />
+  </Folder>
+</Solution>
