@@ -28,9 +28,12 @@ No business logic is included. This repository only contains:
 >Any feedback, comments, or suggestions for improvement are very welcome and highly appreciated.
 
 ## 📁 Solution Structure
+docs<br>
+├── Template Bootstrap Script<br>
 src<br>
 ├── Core<br>
 │   ├── Application<br>
+│&emsp;&emsp;└── DependencyInjections<br>
 │   └── Domain<br>
 │&emsp;&emsp;└── Common<br>
 │&emsp;&emsp;&emsp;&emsp;└── BaseModels<br>
@@ -39,16 +42,20 @@ src<br>
 │&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;└── ValueObject<br>
 ├── Infrastructure<br>
 │   └── Infrastructure<br>
+│&emsp;&emsp;└── DependencyInjections<br>
 ├── Presentation<br>
-│   ├── API<br>
+│   └── API<br>
+│&emsp;&emsp;└── Program<br>
 │   └── Contracts<br>
 tests<br>
-├── AcceptanceTests<br>
 ├── ArchitectureTests<br>
-├── EndToEndTests<br>
-├── FunctionalTests<br>
 ├── IntegrationTests<br>
-└── UnitTests<br>
+├── SubcutaneousTests<br>
+│── UnitTests<br>
+│&emsp;&emsp;├── Application.UnitTests<br>
+│&emsp;&emsp;└── Domain.UnitTests<br>
+utils<br>
+├── bootstrap.py<br>
 .editorconfig<br>
 .gitignore<br>
 Solution.sln<br>
@@ -112,20 +119,45 @@ Ensures architectural rules are respected:
 
 ## 🚀 How to Use This Template
 
+> This template includes a bootstrap script that automates the initialization process and ensures consistent naming across the solution.
+
 ### Option 1 (Recommended): GitHub Template
 1. Mark this repository as a **Template repository**
 2. Create a new repository using this template
 3. Clone the new repository locally
-4. Rename:
-   - Solution file (`.sln`)
-   - API project
-   - Root namespaces
-5. Start implementing your business logic
+4. Run the bootstrap script:
+```bash
+python utils/bootstrap.py
+```
+5. Provide the required inputs:
+   - Project name
+   - Author name
+   - Company name
+   - The script will automatically:
+      - Rename solution and project files
+      - Update namespaces and internal references
+      - Configure StyleCop (author, company, license)
+      - Synchronize file headers
+      - Regenerate the README
+6. Start implementing your business logic
+
+> Documentation:<br>
+> Detailed documentation about the script is available at: `docs/bootstrap.md`
 
 ### Option 2: Manual Clone
 1. Clone the repository
-2. Rename solution, projects and namespaces
+2. Run the bootstrap script following the related previous steps.
 3. Push to a new repository
+
+### Alternative Approach: Manual Setup
+If you prefer not to use the script:
+1. Clone the repository
+2. Manually rename:
+   - Solution file (.slnx)
+   - Projects
+   - Namespaces
+3. Update StyleCop configuration and file headers
+4. Adjust README and project metadata
 
 ## 🎯 Purpose
 

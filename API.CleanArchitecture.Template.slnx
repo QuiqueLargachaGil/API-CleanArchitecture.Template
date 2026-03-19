@@ -28,6 +28,6 @@
   </Folder>
   <Folder Name="/tests/UnitTests/">
     <Project Path="tests/UnitTests/Application.UnitTests/Application.UnitTests.csproj" Id="f3349987-af44-4d39-8c10-bdb010c97a0c" />
-    <Project Path="tests/UnitTests/Domain.UnitTest/Domain.UnitTest.csproj" Id="c5b94b33-4693-4a64-8de7-91f68443168d" />
+    <Project Path="tests/UnitTests/Domain.UnitTests/Domain.UnitTests.csproj" Id="c5b94b33-4693-4a64-8de7-91f68443168d" />
   </Folder>
 </Solution>
